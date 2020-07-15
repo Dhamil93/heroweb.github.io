@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0.3rem;
+            line-height: 1.5rem;
+            background-color: azure;
+            }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .column {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 70px;
+            text-align: center;
+            background-image: url(Image/back4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+            color: rgb(185, 203, 226);
+        }
+        .about-section h1 {
+            font-weight: bolder;
+            color: azure;
+            }
+            .about-section p {
+                font-weight: bolder;
+                color: azure;
+            }
+
+        .about-section a:link {
+            text-decoration: none;
+            cursor: grab;
+        }
+
+        .about-section a:any-link {
+            color: red;
+            font-size: larger;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container h1 {
+            color: red;
+        }
+
+        .container h2 {
+            color: red;
+        }
+
+        .container p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .container a:link {
+            text-decoration: none;
+            color: red;
+            cursor: grab;
+
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: black;
+            font-size: x-large;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: red;
+            background-image: url(Image/back4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            cursor: grab;
+            font-weight: bolder;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color:white;
+        }
+
+
+
+        /* Responsive layout - when the screen is less than 796px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 796px) {
+            .column {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 796px) {
+            .column img {
+                width: 100%;
+
+            }
+        }
+
+        .img {
+            float: left;
+            /* width: 33%; */
+            padding: 100px;
+            width: 120px;
+            height: 120px;
+            padding: 0.1rem;
+        }
+
+        .galleries::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+        #top-page {
+            text-align: center;
+            overflow: auto;
+            text-overflow: ellipsis;
+            border: 1px solid white;
+            font-weight: bolder;
+            background-image: url(Image/back4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+            font-size: larger;
+            padding-bottom: 1rem;
+        }
+
+        #top-page a:visited {
+            color: red;
+            cursor: grab;
+        }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="about-section">
+        <h1>ABOUT ME</h1>
+        <p>Atilola Damilare Ezekiel, student number: 3026982. Bsc. Computing Science</p>
+        <a href="index.html">Home Page</a>
+        </div>
+
+        <h2 style=text-align:center> Brief about me</h2>
+        <div class="row">
+            <div class="column">
+
+            <img src="Image/Dami.jpg" width="400" height="300">
+            <div class="container">
+                <h2>Atilola Damilare <E class="br">3026982</E>
+                </h2>
+                <p class="title">Student</p>
+                <p>1st year Computing Science at Griffith College Cork</p>
+                <p><button class="button">Contact</button></p> <br>
+                <a href="https://twitter.com/Mizta_Dami" target="_">Twitter</a> <br>
+                <a href="https://www.linkedin.com/in/damilare-atilola-133530184/" target="_">Linkedin</a> <br>
+                <a href="mailto:damilareatilola@gmail.com" target="_">damilareatilola@gmail.com</a>
+
+            </div>
+
+            </div>
+
+            <div class="column">
+            <div class="container">
+                <h1>Background</h1>
+                <p>I am <b> Atilola Damilare Ezekiel</b> from Nigeria. I`m studying <b>Bsc computing Science</b> at
+                    Griffith College
+                    Cork Campus, Ireland. I am the first born of my parents with 2 siblings behind me. I was born on the
+                    2nd of November 1993. I went through pre-school, primary school, secondary and pre-tertiary
+                    institution. I speak English fluently and one other Nigerian language, Yoruba possibly. I am a
+                    Christian, A Redeemed Christian Church of God member precisely.I have a popular saying which is
+                    <i><b><q>Believe in yourself, even if it`s not visible. you can make it</q></b></i> I`m aspiring
+                    to be a successful person in life and i`m putting all efforts to it. I believe with God I can and I
+                    will
+                    be successful
+                </p>
+
+               
+
+            </div>
+            </div>
+
+             <div class="container">
+            <h1>More pictures of mine</h1>
+            <div class="galleries">
+                <div class="img">
+                    <img src="Image/Dami1.jpg" alt="Myself" height="100" style="width:100%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami2.jpg" alt="Myself" height="100" style="width:95%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami3.jpg" alt="Myself" height="100" style="width:95%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami4.jpg" alt="Myself" height="100" style="width:95%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami5.jpg" alt="Myself" height="100" style="width:95%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami6.jpg" alt="Myself" height="100" style="width:95%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami7.jpg" alt="Myself" height="100" style="width:95%">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami8.jpg" alt="Myself" style="width:100%" height="95">
+                </div>
+                <div class="img">
+                    <img src="Image/Dami9.jpg" alt="Myself" height="100" style="width:100%">
+                </div>
+            </div>
+
+            <div id="top-page">
+                <a href="#top">Back to top</a>
+            </div>
+            </div>
+        </div>
+    </body>
+
+</html>

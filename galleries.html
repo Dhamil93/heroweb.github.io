@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>My Hero Website</title>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0.3rem;
+    }
+    body p {
+      text-align: center;
+    }
+
+    :any-link {
+      text-decoration: none;
+      color: red;
+      font-weight: bolder;
+      cursor: grab;
+    }
+
+    /* Header/logo Title */
+    .header {
+      padding: 80px;
+      text-align: center;
+      /* background: #1abc9c; */
+      color: azure;
+      font-family: Impact, Charcoal, sans-serif;
+      background-image: url(Image/baba2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+
+    /* Style the top navigation bar */
+    .nav {
+      overflow: hidden;
+      background-color: red;
+    }
+
+    /* Style the navigation bar links */
+    .nav a {
+      float: left;
+      display: block;
+      color: azure;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Right-aligned link */
+    .nav a.right {
+      float: right;
+    }
+
+    /* Change color on hover */
+    .nav a:hover {
+      background-color: black;
+      color: red;
+      font-weight: bold;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .img {
+      float: left;
+      /* width: 33%; */
+      padding: 20px;
+      width: 420px;
+      height: 300px;
+      padding: 0.5rem;
+    }
+
+    .galleries::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .p {
+      color: red;
+      font-size: xx-large;
+      font-weight: bolder;
+    }
+
+    
+   /* Responsive layout - when the screen is less than 796px wide, make the navigation links stack on top of each other instead of next to each other */
+   @media screen and (max-width: 796px) {
+      .nav a:link {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .footer {
+      padding: 0.5rem;
+      text-align: center;
+      background-image: url(Image/back4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 0.5rem;
+      border: 1px solid;
+    }
+
+    .footer h1 {
+      color: azure;
+      font-weight: bolder;
+      font-size: xx-large;
+    }
+
+    .footer p {
+      text-align: left;
+      font-weight: bold;
+      color: azure;
+    }
+
+    .footer li {
+      text-align: right;
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .footer a:link {
+      color: azure;
+      font-weight: bolder;
+    }
+
+    .footer a:hover {
+      color: red;
+    }
+
+    #top-page {
+      text-align: center;
+      overflow: auto;
+      text-overflow: ellipsis;
+      border: 1rem solid white;
+      font-weight: bolder;
+      background-color: black;
+    }
+
+    h2 {
+      text-align: center;
+      color: red;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>My Hero: E.A ADEBOYE</h1>
+      <p>A website dedicated to my Hero the General Overseer of the Redeemed Christian Church of God Worldwide</p>
+      <p>Pastor E.A Adeboye</p>
+      <img src="Image/rccg1.png" alt="web logo" height="100" width="110">
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home Page</a>
+        <a href="biography.html">Biography</a>
+        <a href="influence.html">Influence</a>
+        <a href="why-3.html">Why Adeboye</a>
+        <a href="galleries.html">Galleries</a>
+        <a href="his work.html">His Work</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="about.html" class="right">About the Author</a>
+    </div>
+
+    <h2>IMAGES</h2>
+
+    <div class="galleries">
+      <div class="img">
+      <img src="Image/Adeboye2.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+      <img src="Image/Adeboye7.jpg" alt="Adeboye" style="width:95%">
+      </div>
+      <div class="img">
+        <img src="Image/Adeboye3.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/Adeboye8.png" alt="Adeboye" style="width:100%" height="250">
+      </div>
+      <div class="img">
+        <img src="Image/Adeboye1.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/Adeboye11.jpg" alt="Adeboye" style="width:100%" height="250">
+      </div>
+      <div class="img">
+        <img src="Image/achie1.jpg" alt="Adeboye" style="width:100%" height="250">
+      </div>
+      <div class="img">
+        <img src="Image/images1.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/papa1.png" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/Adeboye10.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/Adeboye5.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/papa2.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+        <img src="Image/baba4.jpg" alt="Adeboye" style="width:80%">
+      </div>
+      <div class="img">
+        <img src="Image/baba3.jpg" alt="Adeboye" style="width:100%">
+      </div>
+      <div class="img">
+      <img src="Image/baba.jpg" alt="Adeboye" style="width:100%" height="250">
+    </div>
+    </div>
+    <p class="p">Pictures displayed are selected randomly at various events and different places and remains the property of <a href="http://rccg.org" target="_">The RCCG</a> for the © symbol</p>
+
+    <div class="footer">
+      <h1>Hero Website</h1>
+      <p> © 2020 Damilare Atilola (3026982) (Use&Copy; for the © symbol)</p>
+      <ul>
+        <li> <a href="termsandconditions.html"> Terms and conditions</a> </li>
+        <li> <a href="privacypolicy.html"> Privacy Policy</a> </li>
+        <li> <a href="about.html" target="_"> Contact</a> </li>
+      </div>
+   <div id="top-page">
+     <a href="#top">Back to Top</a>
+   </div>
+
+  </body>
+
+</html>

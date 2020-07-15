@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>My Hero Website</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     * {
+      box-sizing: border-box;
+      }
+
+     /* Style the body */
+     body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0.3rem;
+      background-color: azure;
+       }
+
+      :any-link {
+      text-decoration: none;
+      color: red;
+      cursor: grab;
+       }
+
+
+     /* Header/logo Title */
+      .header {
+      padding: 80px;
+      text-align: center;
+      /* background: #1abc9c; */
+      color: azure;
+      font-family: Impact, Charcoal, sans-serif;
+      background-image: url(Image/baba2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+        }
+
+     /* Increase the font size of the heading */
+     .header h1 {
+      font-size: 40px;
+        }
+
+      /* Style the top navigation bar */
+      .navbar {
+      overflow: hidden;
+      background-color: red;
+       }
+
+      /* Style the navigation bar links */
+      .navbar a {
+      float: left;
+      display: block;
+      color: azure;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+        }
+
+     /* Right-aligned link */
+     .navbar a.right {
+      float: right;
+       }
+
+     /* Change color on hover */
+       .navbar a:hover {
+      background-color: black;
+      color: red;
+      font-weight: bold;
+       }
+
+
+      .row {
+      display: -ms-flexbox;
+      -ms-flex-wrap: wrap;
+      
+      display: flex;
+      flex-wrap: wrap;
+          }
+
+      .row h2 {
+      color: red;
+         }
+   
+  
+      .aside {
+      -ms-flex: 65%;
+      flex: 65%;
+      background-color:azure;
+      
+      text-align: center;
+      line-height: 2rem;
+      
+     
+         }
+     .aside2 {
+      -ms-flex: 35%;
+      flex: 35%;
+      background-color: aquamarine;
+      text-align: center;
+      line-height: 3rem;
+      
+
+     }
+     .aside2 :visited{
+       color: red;
+     }
+     .aside2 li {
+       list-style-type: none;
+     }
+
+
+      /* Responsive layout - when the screen is less than 796px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 796px) {
+      .navbar a:link {
+        float: none;
+        width: 100%;
+      }
+    }
+        
+
+      /* Footer */
+     .footer {
+      padding: 0.5rem;
+      text-align: center;
+      background-image: url(Image/back4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 0.5rem;
+      border: 1px solid;
+        }
+
+     .footer h1 {
+      color: azure;
+      font-weight: bolder;
+      font-size: xx-large;
+       }
+
+     .footer p {
+      text-align: left;
+      font-weight: bold;
+      color: azure;
+        }
+
+      .footer li {
+      text-align: right;
+      text-decoration: none;
+      list-style-type: none;
+        }
+
+      .footer a:link {
+      color: azure;
+      font-weight: bold;
+        }
+
+      .footer a:hover {
+      color: red;
+        }
+        #top-page {
+      text-align: center;
+      overflow: auto;
+      text-overflow: ellipsis;
+      border: 0.5rem solid white;
+      font-weight: bolder;
+      background-color: black;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <h1>My Hero: E.A ADEBOYE</h1>
+      <p>A website dedicated to my Hero the General Overseer of the Redeemed Christian Church of God Worldwide</p>
+      <p>Pastor E.A Adeboye</p>
+      <img src="Image/rccg1.png" alt="web logo" height="100" width="110">
+    </div>
+    <div class="navbar">
+      <a href="index.html">Home Page</a>
+      <a href="biography.html">Biography</a>
+      <a href="influence.html">Influence</a>
+      <a href="why-3.html">Why Adeboye</a>
+      <a href="galleries.html">Visual Galleries</a>
+      <a href="his work.html">His Work</a>
+      <a href="contacts.html">Contacts</a>
+      <a href="about.html" class="right">About the Author</a>
+    </div>
+    <div class="row">
+
+      <div class="aside">
+        <h2>Conatact E.A Adeboye</h2>
+        <p><b>Address:</b> <br> REDEMPTION CAMP,<br> KM 46 Lagos-Ibadan <br> Express Way, Ogun State, <br> Nigeria</p>
+        <p><b>Phone:</b> <br>+2348141786285 <br> (Office of Pastor E A Adeboye),<br>+2348051769284 <br> (Holy Ghost Service
+          Laying of Hands - SMS ONLY)</p>
+        <p><b>Email:</b> <br><a href="mailto:contact@eaadeboye,com">contact@eaadeboye.com</a></p>
+        <p><b>Working Days/Hours:</b> <br>Mon - Fri / 9:00 AM - <br> 6:00 PM</p>
+      </div>
+    
+      <div class="aside2">
+        <h2>Relevant Links</h2>
+        <ul>
+          <li> <a href="https://faadeboye.com/" target="_">Pastor (Mrs) F. A. Adeboye</a></li>
+          <li> <a href="/http://www.rccg.org/" target="_">RCCG worldwide</a></li>
+          <li> <a href="https://www.ohic.org/" target="_">Open Heavens Int. Center</a></li>
+          <li> <a href="https://theholyghostcongress.com/" target="_">Holy Ghost Congress</a></li>
+          <li> <a href="https://www.youtube.com/channel/UCHp4qCAPmz7-5BJ601FDFnA" target="_">Holy Ghost Service TV</a></li>
+          <li> <a href="https://www.instagram.com/PastorEAAdeboyeOfficial/" target="_">EEA on IG</a></li>
+          <li><a href="https://www.openheavensplus.com/" target="_">Open Heavens +</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <h1>Hero Website</h1>
+      <p> © 2020 Damilare Atilola (3026982) (Use&Copy; for the © symbol)
+      </p>
+      <ul>
+        <li> <a href="termsandconditions.html"> Terms and conditions</a> </li>
+        <li> <a href="privacypolicy.html"> Privacy Policy</a> </li>
+        <li> <a href="about.html" target="_"> Contact</a> </li>
+      </ul>
+    </div>
+    <div id="top-page">
+      <a href="#top">Back to Top</a>
+    </div>
+
+  </body>
+</html>

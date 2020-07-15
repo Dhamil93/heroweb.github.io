@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <title>My Hero Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style the body */
+    body {
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: azure;
+      margin: 0.3rem;
+      line-height: 1.5rem;
+    }
+
+    :any-link {
+      text-decoration: none;
+      color: red;
+      cursor: grab;
+    }
+
+    /* Header/logo Title */
+    .header {
+      padding: 80px;
+      text-align: center;
+      color: azure;
+      font-family: Impact, Charcoal, sans-serif;
+      background-image: url(Image/baba2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: red;
+    }
+
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: azure;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: black;
+      color: red;
+      font-weight: bold;
+    }
+  
+    .row a:visited {
+      color: red;
+      cursor: grab;
+    }
+
+    /* Column container */
+    .row {
+      display: -ms-flexbox;
+
+      display: flex;
+      -ms-flex-wrap: wrap;
+
+      flex-wrap: wrap;
+    }
+
+    .row h2 {
+      color: red;
+      text-align: center;
+    }
+
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      -ms-flex: 30%;
+      flex: 30%;
+      background-image: url(Image/back1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 1.5;
+      padding: 20px;
+      color: white;
+    }
+
+    /* Automatically remove all underlining on links */
+    .side a:any-link {
+      text-decoration: none;
+      cursor: grab;
+    }
+
+    /* Main column */
+    .main {
+      -ms-flex: 70%;
+      flex: 70%;
+      background-color: azure;
+      padding: 20px;
+    }
+
+    .main h4 a:link {
+      text-decoration: none;
+      cursor: grab;
+    }
+    .main h4 {
+      color: red;
+    }
+    
+ /* Responsive layout - when the screen is less than 796px wide, make the navigation links stack on top of each other instead of next to each other */
+ @media screen and (max-width: 796px) {
+            .row {
+                float: none;
+                width: 100%;
+            }
+            .main {
+              float: none;
+              width: 100%;
+            }
+            .navbar a:link {
+        float: none;
+        width: 100%;
+      }
+        }
+
+      
+    @media screen and (min-width: 796px) {
+            .img {
+                width: 70%;
+                float: right;
+                padding: 1rem;
+                    }
+            #img {
+              width: 50%;
+              float: right;
+              padding-left: 1.5rem;
+            }
+        }
+        
+
+    /* Footer */
+    .footer {
+      padding: 0.5rem;
+      text-align: center;
+      background-image: url(Image/back4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 0.5rem;
+      border: 1px solid;
+    }
+      /* Adding color and size to the Heading in the footer */
+    .footer h1 {
+      color: azure;
+      font-weight: bolder;
+      font-size: xx-large;
+    }
+      /* to design the paragraph found in the footer */
+    .footer p {
+      text-align: left;
+      font-weight: bold;
+      color: azure;
+    }
+
+    .footer li {
+      text-align: right;
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .footer a:link {
+      color: azure;
+      font-weight: bold;
+      cursor: grab;
+    }
+
+    .footer a:hover {
+      color: red;
+    }
+
+    
+    /* Styling the Back to top link on the site */
+    #top-page {
+      text-align: center;
+      overflow: auto;
+      text-overflow: ellipsis;
+      border: 0.5rem solid white;
+      font-weight: bolder;
+      background-color: black;
+    }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>My Hero: E.A ADEBOYE</h1>
+      <audio controls style="height: 30px;  width: 200px; background-color: blue;">
+        <source src="Audio/audio.mp3" type="audio/ogg">
+        <source src="Audio/audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio.
+      </audio>
+      <p>A website dedicated to my Hero the General Overseer of the Redeemed Christian Church of God Worldwide</p>
+     <p>Pastor E.A Adeboye</p>
+      <img src="Image/rccg1.png" alt="web logo" height="100" width="110">
+   </div>
+
+    <div class="navbar">
+      <a href="biography.html">Biography</a>
+      <a href="influence.html">Influence</a>
+      <a href="why-3.html">Why Adeboye</a>
+      <a href="galleries.html">Visual Galleries</a>
+      <a href="his work.html">His Work</a>
+      <a href="contacts.html">Contacts</a>
+      <a href="about.html" class="right">About the Author</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+          <h2>Atilola Damilare E.</h2>
+          <h4>Author</h4>
+         <div class="Dami3"> <img src="Image/Dami3.jpg" alt="My picture" height="300" width="350"></div>
+          <p>In this website are all the necessary information about my hero</p>
+          <h3>Flash!!!</h3>
+         <div><img src="Image/Adeboye7.jpg" alt="Adeboye with Isreal PM" height="120px;" width="200">
+          <p>Pastor E.A Adeboye with Isrealie Prime Minister</p>
+          </div><br>
+          <div><img src="Image/flash1.png" height="120px;" width="200">
+          <p><a href="https://soundcloud.com/pastoreaadeboye/june-holy-communion-service" target="_">Adeboye releases
+              latest message on soundcloud</a></p>
+          </div><br>
+          <div><img src="Image/book1.jpg" height="120px;" width="200">
+          <p><a href="http://eaadeboye.com/store/sanctification/" target="_">Papa Launches yet another book</a></p>
+           </div>
+        </div>
+      <div class="main">
+       <h2>ENOCH ADEJARE ADEBOYE</h2>
+        <h4>Insight of his history</h4>
+        <div class="img">
+        <img src="Image/Adeboye0.jpg" alt="Adeboye`s Picture" height="auto" width="100%">
+       </div>
+        <p>The life of Enoch Adejare Adeboye is a fulfillment of the scriptures in Zechariah 4: 10 which declare, “despise
+        not the days of small beginnings”.</p>
+        <p>Born in 1942 into a humble family in the village of Ifewara, Osun State located in the South-western part of
+        Nigeria Enoch Adeboye often humorously states that his family was so poor that even the poor people called them
+        poor. As a matter of fact, he unashamedly tells his congregation that he never owned shoes until he was eighteen
+        years of age. What he possessed though were physical intangibles such as focus, consistency, diligence,
+        ambition, a brilliant mind and a determination to succeed in life....... <a href="biography.html" target="_">Read more</a> </p> <br>
+        <h2>THE RCCG</h2>
+        <h4>His <a href="http://rccg.org" target="_">Ministry</a></h4>
+        <div id="img">
+        <img src="Image/rccg1.png" alt="Adeboye`s Picture" height="auto" width="100%">
+        </div>
+        <p>The RCCG was founded in 1952 by Rev. Josiah Olufemi Akindayomi (1909–1980) following his involvement in other
+        churches</p>
+        <p>.Rev. Akindayomi chose <a href="http:eaadeboye.com//" target="_">Enoch Adejare Adeboye</a> as the next General overseer.
+        Enoch Adeboye was a lecturer in mathematics at the <a href="https://unilag.edu.ng/" target="_">University of Lagos,</a>
+        Nigeria, as at the time he joined the church in 1973. Adeboye initially became one of the interpreters
+        translating Akindayomi's sermons from Yoruba to English. He was ordained a pastor of the church in 1975, and his
+        appointment as leader (General overseer) of the church was formalized by the posthumous reading of Akindayomi's
+        sealed pronouncement. In 1990, Redeemed Christian Church of God Bible School was founded.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+     <h1>Hero Website</h1>
+      <p> © 2020 Damilare Atilola (3026982) (Use&Copy; for the © symbol)</p>
+      <ul>
+       <li> <a href="termsandconditions.html"> Terms and conditions</a> </li>
+        <li> <a href="privacypolicy.html"> Privacy Policy</a> </li>
+        <li> <a href="about.html" target="_"> Contact</a> </li>
+      </ul>
+    </div>
+
+   <div id="top-page">
+      <a href="#top">Back to Top</a>
+    </div>
+  </body>
+</html>

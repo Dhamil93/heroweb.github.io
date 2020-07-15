@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Hero Website</title>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0.3rem;
+      background-color: azure;
+      line-height: 1.5rem;
+    }
+
+    :any-link {
+      text-decoration: none;
+      cursor: grab;
+    
+    }
+    a:visited {
+      color: red;
+    }
+
+    /* Header/logo Title */
+    .header {
+      padding: 80px;
+      text-align: center;
+      /* background: #1abc9c; */
+      color: azure;
+      font-family: Impact, Charcoal, sans-serif;
+      background-image: url(Image/baba2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: red;
+    }
+
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: azure;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: black;
+      color: red;
+      font-weight: bold;
+    }
+    .influence h1 {
+      text-align: center;
+      color: red;
+     }
+    .list {
+      list-style-type: circle;
+    }
+    
+     /* Responsive layout - when the screen is less than 796px wide, make the whole page stack on top of each other instead of next to each other */
+     @media screen and (max-width: 796px) {
+      .influence {
+        flex-direction: column;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 796px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 796px) {
+      .navbar a:link {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    /* Footer */
+    .footer {
+      padding: 0.5rem;
+      text-align: center;
+      background-image: url(Image/back4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 0.5rem;
+      border: 1px solid;
+    }
+
+    .footer h1 {
+      color: azure;
+      font-weight: bolder;
+      font-size: xx-large;
+    }
+
+    .footer p {
+      text-align: left;
+      font-weight: bold;
+      color: azure;
+    }
+
+    .footer li {
+      text-align: right;
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .footer a:link {
+      color: azure;
+      font-weight: bolder;
+    }
+
+    .footer a:hover {
+      color: red;
+    }
+    #top-page {
+      text-align: center;
+      overflow: auto;
+      text-overflow: ellipsis;
+      border: 1px solid white;
+      font-weight: bolder;
+      background-color: black;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="header">
+    <h1>My Hero: E.A ADEBOYE</h1>
+    <p>A website dedicated to my Hero the General Overseer of the Redeemed Christian Church of God Worldwide</p>
+    <p>Pastor E.A Adeboye</p>
+    <img src="Image/rccg1.png" alt="web logo" height="100" width="110">
+
+    </div>
+
+    <div class="navbar">
+    <a href="index.html">Home Page</a>
+    <a href="biography.html">Biography</a>
+    <a href="influence.html">Influence</a>
+    <a href="why-3.html">Why Adeboye</a>
+    <a href="galleries.html">Visual Galleries</a>
+    <a href="his work.html">His Work</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="about.html" class="right">About the Author</a>
+    </div>
+
+    <div class="influence">
+        <h1>ACHIEVEMENTS & INFLUENCE</h1>
+      <ul class="list">
+        <li>He obtained <b>BSc. in Mathematics</b> from <a href="https://www.unn.edu.ng/" target="_">UNN</a> in 1967.</li>
+          <li>He obtained <b>MSc. in Hydrodynamics</b> from UNILAG in 1969.</li>
+          <li>He obtained <b>PhD. in Applied Mathematics</b> from UNILAG in 1975.</li>
+          <li>He became a Pastor in RCCG in 1977 and was ordained <b>the General Overseer of RCCG</b> in 1981 till today</li>
+          <li>Enoch Adeboye, general overseer of <b>the Redeemed Christian Church of God (RCCG)</b>, has donated intensive care unit beds fitted with ventilators to three states in Nigeria. <a href="https://www.thecable.ng/covid-19-adeboye-donates-11-icu-beds-with-ventilators-to-lagos-ogun-plateau">covid-19-adeboye-donates-11-icu-beds-with-ventilators-to-lagos-ogun-plateau</a></li>
+          <li>COVID -19: Adeboye Donates <a href="https://www.thisdaylive.com/index.php/2020/04/09/covid-19-adeboye-donates-medical-supplies-to-lagos/">Medical Supplies to Lagos state.NG.</a></li>
+          <li>PASTOR ADEBOYE GIVES FIFTY (50) MILLION NAIRA TO <a href="https://web.archive.org/web/20140605052112/http://www.oauife.edu.ng/2012/06/endowment-of-professorial-chair-in-mathematics-pastor-adeboye-gives-fifty-50-million-naira-to-oau/">OAU(Obafemi Awolowo University NG.</a></li>
+          <li>DSU President Harry L. Williams presented Pastor Enoch A. Adeboye, worldwide general overseer of Redeemed Christian Church of God, with <b>the President’s Leadership Award</b> during the denomination’s Holy Ghost Festival of Life which drew over 3,500 of its members from all over the east coast. The festival filled up DSU’s Memorial Hall Gymnasium, necessitating the use of overflow areas in the University’s Wellness and Recreation Center and <b>Longwood Auditorium of the Bank of America Building.</b> The overflow areas were equipped with large screen monitors that broadcasted the live program taking place in Memorial Hall. The award recognized to work of both Pastor Adeboye and his wife Foluke – who is a co-pastor with her husband.</li>
+          <li>has led to the transformation of a few parish branches in Nigeria to a global evangelistic and church-planting organization – currently with a presence in 196 countries around the world, including the U.S. where <b>RCCG is established in 24 states</b>.</li>
+          <li>He`s also 1 of the <a href="https://www.newsweek.com/newsweek-50-e-adeboye-83039" target="_">50 most powerful people in the world</a> <b>by Newsweek</b>(2008)</li>
+      </ul>
+       <p>Enoch Adeboye’s counsel has been sought by presidents, and his appeal in both the secular and religious arenas is evidenced by the wide range of groups that have honored him, including numerous honorary doctorates from many institutions in the Nigeria and abroad in appreciation of his contributions to humanity. Recognitions include the following:</p>
+      <ul class="list">
+        <li>1999 – Received honorary citizenship and key of Cambridge, Massachusetts, USA.</li>
+        <li>2000 – Dedicated the first chapel in the Nigerian Presidential Villa, Abuja, Nigeria.</li>
+        <li>2002 – Received the key to the city of Detroit, Michigan.</li>
+        <li>2005 – Received honorary citizenship and key of Dallas, Texas, USA.</li>
+        <li>2005 – Received honorary citizenship and key of Baltimore, Maryland, United States.</li>
+        <li>2008 – Awarded a National Honor (Order of the Federal Republic of Nigeria) by the Nigerian President.</li>
+        <li>2009 – Led the Pre-Summit Prayers at the 64th General Assembly of the United Nations Headquarters, New York.</li>
+        <li>2009 – Named one of The World’s Fifty Most Powerful People by Newsweek Magazine (USA).</li>
+        <li>2009 – Awarded honorary doctorate degree – University of Lagos, Lagos, Nigeria.</li>
+        <li>2009 – Awarded honorary doctorate degree – University of Nigeria, Nsukka, Nigeria.</li>
+        <li>2009 – Awarded honorary doctorate degree in Theology – Canada Christian College, Canada.</li>
+        <li>2010 – Awarded a National Sports Honor (Spiritual Pillar of Nigerian Sports).</li>
+        <li>2011 – Chaired United Nations Global Summit on the Road Map to a Culture of Peace in the Middle East.</li>
+        <li>2011 – Awarded honorary doctorate degree – University of Ibadan, Ibadan, Nigeria.</li>
+        <li>2011 – Received award as the Best/Most Profitable Icon/Personality in Nigeria.</li>
+        <li>2014 – Awarded National Honour – (CON) Commander of the Order of the Niger,</li>
+        <li>2015 – Awarded Honorary Doctor of Science – University of Lagos.</li>
+        <li>2015 – Certificate of Recognition – The Congress of The United States of America</li>
+        <li>2015 – Presidential Merit Award – The Nigerian Society of Engineers</li>
+      </ul>
+         <p>Though the above achievements are phenomenal, Enoch Adeboye never fails to give glory to God, claiming that there are greater things ahead that the Lord will yet do. Enoch Adeboye has been married to Foluke Adenike Adeboye for over 45 years. Together they have three sons and one daughter, and many grand and great grandchildren children. They reside at the Redemption Camp in the suburbs of Lagos, Nigeria.</p>
+    </div>
+
+    <div class="footer">
+    <h1>Hero Website</h1>
+    <p> © 2020 Damilare Atilola (3026982) (Use&Copy; for the © symbol)
+    </p>
+    <ul>
+      <li> <a href="termsandconditions.html"> Terms and conditions</a> </li>
+      <li> <a href="privacypolicy.html"> Privacy Policy</a> </li>
+      <li> <a href="about.html" target="_"> Contact</a> </li>
+    </div>
+    <div id="top-page">
+    <a href="#top">Back to Top</a>
+    </div>
+
+  </body>
+
+</html>
